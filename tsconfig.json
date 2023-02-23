@@ -1,0 +1,26 @@
+{
+    "version": "2.4.2",
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "es5",
+            "es6",
+            "esnext.asynciterable"
+        ],
+        "target": "es2017",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "baseUrl": ".",
+        "skipLibCheck": true
+    },
+    "esModuleInterop": "true",
+    "exclude": [
+        "node_modules"
+    ],
+    "skipLibCheck": true
+}
